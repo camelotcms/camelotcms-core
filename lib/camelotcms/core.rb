@@ -1,6 +1,6 @@
-require 'camelot/core/version'
+require 'camelotcms/core/version'
 
-module Camelot
+module Camelotcms
   module Core
     # Your code goes here...
   end

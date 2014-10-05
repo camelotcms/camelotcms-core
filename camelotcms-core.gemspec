@@ -1,12 +1,12 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'camelot/core/version'
+require 'camelotcms/core/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = 'camelot-core'
-  spec.version       = Camelot::Core::VERSION
-  spec.authors       = ['dfreerksen']
+  spec.name          = 'camelotcms-core'
+  spec.version       = Camelotcms::Core::VERSION
+  spec.authors       = ['David Freerksen']
   spec.email         = ['dfreerksen@gmail.com']
   spec.summary       = %q{TODO: Write a short summary. Required.}
   spec.description   = %q{TODO: Write a longer description. Optional.}
